@@ -397,7 +397,7 @@ function App() {
               className="row d-flex flex-column justify-content-center align-items-center"
             >
               <div>
-                <FontAwesomeIcon color="white" size="lg" icon={faHome} />
+                <FontAwesomeIcon color="white" size="lg" icon={faStore} />
               </div>
             </div>
             <div
@@ -407,7 +407,7 @@ function App() {
               className="row d-flex flex-column justify-content-center align-items-center"
             >
               <div>
-                <FontAwesomeIcon color="white" size="lg" icon={faPlus} />
+                <FontAwesomeIcon color="white" size="lg" icon={faCirclePlus} />
               </div>
             </div>
             <div
@@ -415,10 +415,10 @@ function App() {
                 setTab("WALLET");
                 fetchMyNFTs();
               }}
-              // className="row d-flex flex-column justify-content-center align-items-center"
+              className="row d-flex flex-column justify-content-center align-items-center"
             >
               <div>
-                <FontAwesomeIcon color="white" size="lg" icon={faWallet} />
+                <FontAwesomeIcon color="white" size="lg" icon={faUser} />
               </div>
             </div>
           </div>
